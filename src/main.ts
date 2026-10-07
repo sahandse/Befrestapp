@@ -76,7 +76,7 @@ app.innerHTML = `
       <div class="hero-device" aria-label="تصویر اصلی برنامه بفرست">
         <div class="halo"></div>
         <div class="real-shot hero-shot">
-          <img src="./images/screenshots/photo_2026-10-07_12-48-31.jpg" alt="صفحه اصلی واقعی برنامه بفرست" />
+          <img src="./images/screenshots/photo_2026-10-07_12-48-29.jpg" alt="صفحه اصلی واقعی برنامه بفرست" />
         </div>
         <div class="float-badge">⚡ <span><b>انتقال محلی</b><small>مستقیم بین دو دستگاه</small></span></div>
       </div>
