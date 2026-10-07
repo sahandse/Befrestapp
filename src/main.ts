@@ -49,7 +49,7 @@ app.innerHTML = `
       <div class="hero-device" aria-label="پیش نمایش واقعی بفرست">
         <div class="halo"></div>
         <div class="real-shot hero-shot">
-          <img src="./images/screenshots/photo_2026-10-07_12-48-28.jpg" alt="نمای واقعی برنامه بفرست" />
+          <img src="./images/screenshots/photo_2026-10-07_12-48-31.jpg" alt="نمای اصلی برنامه بفرست" />
         </div>
         <div class="float-badge">⚡ <span><b>بدون اینترنت</b><small>شبکه محلی</small></span></div>
       </div>
