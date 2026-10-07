@@ -16,7 +16,7 @@ app.innerHTML = `
 
   <header class="nav shell">
     <a class="brand" href="#top" aria-label="بفرست">
-      <span class="logo-mark"><i>➜</i><i>←</i></span>
+      <img class="brand-image" src="./images/screenshots/logo.jpg" alt="لوگو بفرست" />
       <strong>بفرست</strong>
     </a>
     <a class="nav-cta" href="#download">دانلود</a>
@@ -46,26 +46,10 @@ app.innerHTML = `
         </div>
       </div>
 
-      <div class="hero-device" aria-label="پیش نمایش بفرست">
+      <div class="hero-device" aria-label="پیش نمایش واقعی بفرست">
         <div class="halo"></div>
-        <div class="phone">
-          <div class="status"><span>۱۲:۳۲</span><span>◉ 4G ▮▮▮</span></div>
-          <div class="app-head">
-            <div><h3>بفرست</h3><small>بدون اینترنت • مستقیم • ساده</small></div>
-            <span class="round-icon">☷</span>
-          </div>
-
-          <div class="transfer-card receive">
-            <span class="corner-icon">↙</span>
-            <div><h4>دریافت</h4><p>گوشی را آماده دریافت کن</p></div>
-            <button>باز کردن ←</button>
-          </div>
-
-          <div class="transfer-card send">
-            <span class="corner-icon">↗</span>
-            <div><h4>ارسال</h4><p>فایل را مستقیم بفرست</p></div>
-            <button>باز کردن ←</button>
-          </div>
+        <div class="real-shot hero-shot">
+          <img src="./images/screenshots/photo_2026-10-07_12-48-28.jpg" alt="نمای واقعی برنامه بفرست" />
         </div>
         <div class="float-badge">⚡ <span><b>بدون اینترنت</b><small>شبکه محلی</small></span></div>
       </div>
@@ -89,45 +73,10 @@ app.innerHTML = `
       </div>
 
       <div class="screens">
-        <article class="screen">
-          <header>ارسال <span>→</span></header>
-          <h3>چی می‌خوای بفرستی؟</h3>
-          <p>محتوا را انتخاب کن و بعد روی دستگاه مقصد بزن</p>
-          <div class="tile-grid">
-            <span>▧<small>عکس</small></span><span>▶<small>ویدیو</small></span>
-            <span>♫<small>موسیقی</small></span><span>▤<small>اسناد</small></span>
-            <span>▱<small>فایل‌ها</small></span><span>◉<small>برنامه‌ها</small></span>
-            <span>□<small>پوشه</small></span><span>≡<small>متن و لینک</small></span>
-          </div>
-          <div class="nearby"><b>دستگاه‌های نزدیک</b><span>◎</span><small>دستگاه مقصد روی همین شبکه نمایش داده می‌شود</small></div>
-        </article>
-
-        <article class="screen focus">
-          <header>دریافت <span>→</span></header>
-          <div class="receive-panel"><span>↙</span><b>آماده دریافت</b><small>دستگاه شما</small></div>
-          <div class="list-row"><span>⚡</span><div><b>دریافت سریع</b><small>درخواست‌های شبکه محلی</small></div></div>
-          <div class="list-row"><span>▦</span><div><b>اتصال با QR</b><small>اتصال مستقیم بین دو دستگاه</small></div></div>
-        </article>
-
-        <article class="screen">
-          <header>تنظیمات <span>→</span></header>
-          <div class="settings-card">
-            <h3>هویت دستگاه</h3>
-            <label>نام دستگاه</label>
-            <div class="input">F3</div>
-            <button>ذخیره نام دستگاه</button>
-          </div>
-          <div class="settings-card">
-            <h3>امنیت دریافت</h3>
-            <div class="setting-row"><span>PIN برای دریافت</span><i></i></div>
-          </div>
-        </article>
-
-        <article class="screen">
-          <header>بفرست <span>☷</span></header>
-          <div class="home-card blue"><span>↙</span><b>دریافت</b><small>گوشی را آماده دریافت کن</small></div>
-          <div class="home-card rose"><span>↗</span><b>ارسال</b><small>فایل را مستقیم بفرست</small></div>
-        </article>
+        <figure class="real-shot"><img src="./images/screenshots/photo_2026-10-07_12-48-28.jpg" alt="اسکرین شات بفرست ۱" /></figure>
+        <figure class="real-shot"><img src="./images/screenshots/photo_2026-10-07_12-48-29.jpg" alt="اسکرین شات بفرست ۲" /></figure>
+        <figure class="real-shot"><img src="./images/screenshots/photo_2026-10-07_12-48-31.jpg" alt="اسکرین شات بفرست ۳" /></figure>
+        <figure class="real-shot"><img src="./images/screenshots/photo_2026-10-07_12-48-32.jpg" alt="اسکرین شات بفرست ۴" /></figure>
       </div>
     </section>
 
@@ -143,7 +92,7 @@ app.innerHTML = `
     </section>
 
     <section class="final-download shell">
-      <div class="final-logo">↔</div>
+      <img class="final-logo-image" src="./images/screenshots/logo.jpg" alt="لوگو بفرست" />
       <h2>آماده‌ای؟ بفرست.</h2>
       <p>آخرین نسخه Android را دریافت کن.</p>
       <a class="download-btn" href="https://github.com/sahandse/befresta/releases/latest" target="_blank" rel="noreferrer">
